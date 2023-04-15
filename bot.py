@@ -18,10 +18,9 @@ async def ping(ctx, ip):
     
 async def sendcommand(ctx,ip, command):
     srv = Server(host=ip)
-    if ctx.author.id == 680370707347406878:
+    if ctx.author.id == your id:
         await ctx.send(f"{srv.send(command=command)}")
         await ctx.send(f"Send Command To {ip} Complete!")
     else:
         await ctx.reply("You No Perm!")
-bot.run("MTAyOTMzMDQwODcyMDA0NDAzMw.GTt-1S.0-967swVToU72NA4M-fyL7punVjx2SigQyCO0Q")
-
+bot.run("bot token")
